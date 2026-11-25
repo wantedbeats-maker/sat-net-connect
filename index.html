@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAT-NET Connect – Mobiles Satelliteninternet für Camper, Vanlife, Boote und mobile Unternehmen.">
+  <title>SAT-NET Connect | Internet ohne Grenzen</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: #f2f7ff;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 7%;
+      border-bottom: 1px solid #183047;
+    }
+    .logo { font-size: 23px; font-weight: bold; letter-spacing: 1px; }
+    .logo span { color: #00d9ff; }
+    nav a {
+      color: #c7d8e8;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+    .hero {
+      padding: 100px 7% 90px;
+      text-align: center;
+      background: radial-gradient(ellipse at center, #10334b, #07111f 70%);
+    }
+    .tag {
+      color: #00d9ff;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.1; margin: 22px 0; }
+    h1 span { color: #00d9ff; }
+    .hero p { max-width: 650px; margin: 0 auto 30px; color: #bdccdc; }
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      border-radius: 7px;
+      background: #00c9ed;
+      color: #06111d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 70px 7%; }
+    .section-title { text-align: center; font-size: 32px; margin-bottom: 15px; }
+    .section-intro { text-align: center; color: #aebfd0; margin-bottom: 38px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #101f30;
+      border: 1px solid #203d55;
+      border-radius: 12px;
+      padding: 27px;
+    }
+    .card .symbol { font-size: 30px; margin-bottom: 12px; }
+    .card h3 { color: #00d9ff; margin-bottom: 10px; }
+    .card p { color: #b7c6d5; font-size: 14px; }
+    .steps { max-width: 750px; margin: auto; }
+    .step { padding: 20px; border-left: 2px solid #00d9ff; margin-bottom: 18px; background: #101f30; }
+    .step strong { color: #00d9ff; }
+    .contact {
+      text-align: center;
+      background: #0d2032;
+      border-top: 1px solid #203d55;
+    }
+    .contact p { color: #c0cedc; margin: 12px auto 25px; max-width: 600px; }
+    footer {
+      text-align: center;
+      padding: 28px;
+      color: #8499ad;
+      font-size: 12px;
+    }
+    @media(max-width: 600px) {
+      header { flex-direction: column; gap: 12px; }
+      nav a { margin: 0 7px; }
+      .hero { padding-top: 70px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SAT-NET <span>CONNECT</span></div>
+    <nav>
+      <a href="#loesungen">Lösungen</a>
+      <a href="#ablauf">So funktioniert's</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="tag">MOBILES SATELLITENINTERNET</div>
+      <h1>Frei unterwegs.<br><span>Verbunden bleiben.</span></h1>
+      <p>
+        Ob im Wohnmobil, im Van, auf dem Wasser oder an abgelegenen Orten:
+        Wir helfen dir, eine passende Internetlösung für unterwegs zu finden.
+      </p>
+      <a class="btn" href="#kontakt">Jetzt Lösung anfragen</a>
+    </div>
+
+    <section id="loesungen">
+      <h2 class="section-title">Internet für deinen Lebensstil</h2>
+      <p class="section-intro">Die passende Verbindung für mobile Freiheit.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="symbol">🚐</div>
+          <h3>Camper & Wohnmobil</h3>
+          <p>Internet auf Reisen, beim Camping und an wechselnden Standorten.</p>
+        </div>
+        <div class="card">
+          <div class="symbol">🏕️</div>
+          <h3>Vanlife & Outdoor</h3>
+          <p>Digitale Freiheit für unterwegs und abgelegene Reiseziele.</p>
+        </div>
+        <div class="card">
+          <div class="symbol">🛥️</div>
+          <h3>Marine</h3>
+          <p>Mögliche Internetlösungen für Boote und maritime Anwendungen.</p>
+        </div>
+        <div class="card">
+          <div class="symbol">💻</div>
+          <h3>Mobiles Arbeiten</h3>
+          <p>Verbindungsmöglichkeiten für Menschen, die ortsunabhängig arbeiten.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ablauf">
+      <h2 class="section-title">So funktioniert SAT-NET Connect</h2>
+      <p class="section-intro">Einfach, transparent und unverbindlich.</p>
+      <div class="steps">
+        <div class="step"><strong>01 – Bedarf mitteilen</strong><p>Erzähl uns, wo und wie du Internet nutzen möchtest.</p></div>
+        <div class="step"><strong>02 – Möglichkeiten prüfen</strong><p>Wir suchen nach passenden Angeboten und informieren dich über die Bedingungen.</p></div>
+        <div class="step"><strong>03 – Selbst entscheiden</strong><p>Du entscheidest in Ruhe, welche Lösung zu dir passt.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <h2 class="section-title">Bereit für grenzenlose Freiheit?</h2>
+      <p>Schreib uns, was du vorhast. Wir freuen uns auf deine Anfrage.</p>
+      <a class="btn" href="mailto:kontakt@sat-net-connect.de?subject=Anfrage%20SAT-NET%20Connect">Anfrage per E-Mail</a>
+      <p style="font-size:12px;margin-top:20px;">Hinweis: Diese E-Mail-Adresse muss vor Veröffentlichung eingerichtet werden.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 SAT-NET Connect · Internet ohne Grenzen.
+    <br><br>
+    Marken- und Kooperationshinweis: SAT-NET Connect ist ein unabhängiges Projekt im Aufbau.
+    Es bestehen derzeit keine hier bestätigten offiziellen Partnerschaften mit Satelliteninternet-Anbietern.
+    <br><br>
+    Vor einer öffentlichen Veröffentlichung müssen Impressum, Datenschutz und Kontaktangaben ergänzt werden.
+  </footer>
+</body>
+</html>
